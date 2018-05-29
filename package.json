@@ -1,0 +1,19 @@
+{
+  "name": "rxjs-finnish-rule-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -c ./tslint.json -p ./tsconfig.json file.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.2.0"
+  },
+  "devDependencies": {
+    "rxjs-tslint-rules": "^4.3.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
